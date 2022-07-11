@@ -7,11 +7,6 @@ type Triangle struct {
 	Side float64
 }
 
-// Triangle must satisfy to Shape interface
-type Triangle struct {
-	Side float64
-}
-
 func (t Triangle) CalcPerimeter() float64 {
 	return t.Side * 3
 }
