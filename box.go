@@ -1,7 +1,7 @@
 package golang_united_school_homework
 
 import (
-	"errors",
+	"errors"
 	"fmt"
 )
 
